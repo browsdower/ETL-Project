@@ -10,15 +10,17 @@ Once datasets are identified, perform ETL on the data, and document the followin
 
 
 Datasets used and their sources.
-  Github datasets of NFL play by play for two different years for the Kansas City Cheifs. 
+  Github datasets of NFL game results for two different years for the Kansas City Cheifs. 
   
 
 
 Types of data wrangling performed, such as data cleaning, joining, filtering, and aggregating.
-  Joining different NFL years
+  Appending years 2018-2019
+  Filtering non KC games out
+  Dropping irrelevant / repatative columns (Game type - all reg season).
   
 
 
 The schemata used in the final production database, whether relational or non-relational.  
-  Postgresql (who setting up)
-  What is the validation query to run
+  Postgresql data upload
+  Validation query 
