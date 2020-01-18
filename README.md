@@ -15,13 +15,13 @@ Datasets used and their sources.<br>
   
 
 
-Types of data wrangling performed, such as data cleaning, joining, filtering, and aggregating.
+Types of data wrangling performed, such as data cleaning, joining, filtering, and aggregating.<br>
   Appending years 2018-2019
   Filtering non KC games out
   Dropping irrelevant / repetitive columns (Game type - all reg season).
   
 
 
-The schemata used in the final production database, whether relational or non-relational.  
+The schemata used in the final production database, whether relational or non-relational. <br>
   Postgresql data upload
   Validation query 
