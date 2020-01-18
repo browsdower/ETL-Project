@@ -20,7 +20,7 @@ Datasets used and their sources.<br>
 Types of data wrangling performed, such as data cleaning, joining, filtering, and aggregating.<br>
   + Appending years 2018 and 2019
   + Filtering non KC games out
-  + Dropping irrelevant / repetitive columns (Game type - all reg season).
+  + Cleaning irrelevant / repetitive columns (Game type - all reg season).
   
 
 
