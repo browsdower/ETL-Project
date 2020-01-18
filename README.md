@@ -9,8 +9,9 @@ Alternatively, you may use APIs or scrape data from the web. However, if you cho
 Once datasets are identified, perform ETL on the data, and document the following in a technical report:
 
 
-Datasets used and their sources.
+Datasets used and their sources.<br>
   Github datasets of NFL game results for two different years for the Kansas City Chiefs. 
+  https://github.com/ryurko/nflscrapR-data/tree/master/games_data/regular_season
   
 
 
