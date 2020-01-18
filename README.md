@@ -10,7 +10,7 @@ Once datasets are identified, perform ETL on the data, and document the followin
 
 
 Datasets used and their sources.<br>
-<li>
+  <li>
   Github datasets of NFL game results for two different years for the Kansas City Chiefs. 
   https://github.com/ryurko/nflscrapR-data/tree/master/games_data/regular_season
   </li>
