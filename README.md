@@ -25,5 +25,6 @@ Types of data wrangling performed, such as data cleaning, joining, filtering, an
 
 
 The schemata used in the final production database, whether relational or non-relational. <br>
+ + Creating table schemata
  + Postgresql data upload
  + Validation query 
