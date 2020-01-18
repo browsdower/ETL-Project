@@ -10,14 +10,14 @@ Once datasets are identified, perform ETL on the data, and document the followin
 
 
 Datasets used and their sources.
-  Github datasets of NFL game results for two different years for the Kansas City Cheifs. 
+  Github datasets of NFL game results for two different years for the Kansas City Chiefs. 
   
 
 
 Types of data wrangling performed, such as data cleaning, joining, filtering, and aggregating.
   Appending years 2018-2019
   Filtering non KC games out
-  Dropping irrelevant / repatative columns (Game type - all reg season).
+  Dropping irrelevant / repetitive columns (Game type - all reg season).
   
 
 
