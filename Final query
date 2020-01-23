@@ -1,0 +1,12 @@
+select
+	ma.game_id,
+	home_team,
+	away_team,
+	week,
+	home_score,
+	away_score,
+	epa
+from football2019 fb
+left join mahomes ma on cast(ma.game_id as varchar(20)) = cast(fb.game_id as varchar(20))
+where home_team = 'KC'
+	or away_team = 'KC'
