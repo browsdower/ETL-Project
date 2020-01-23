@@ -10,3 +10,6 @@ from football2019 fb
 left join mahomes ma on cast(ma.game_id as varchar(20)) = cast(fb.game_id as varchar(20))
 where home_team = 'KC'
 	or away_team = 'KC'
+
+
++ This query will join our game results data to play data, and return results showing KC, their opponents, the game ID, game week, game score for each team, as well as the sum EPA value for that game
