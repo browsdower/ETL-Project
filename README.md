@@ -9,7 +9,7 @@ Alternatively, you may use APIs or scrape data from the web. However, if you cho
 Once datasets are identified, perform ETL on the data, and document the following in a technical report:
 
 
-Datasets used and their sources.<br>
+**Datasets used and their sources.**<br>
   + Github datasets of regular season NFL game results and play by play data
   + Two different years (2018 and 2019)  
   + https://github.com/ryurko/nflscrapR-data/tree/master/games_data/regular_season
@@ -17,7 +17,7 @@ Datasets used and their sources.<br>
   
 
 
-Types of data wrangling performed, such as data cleaning, joining, filtering, and aggregating.<br>
+**Types of data wrangling performed, such as data cleaning, joining, filtering, and aggregating.**<br>
   + Appending years 2018 and 2019
   + Filtering non KC games out from dataset
   + Cleaning irrelevant / repetitive columns (Game type - all reg season) and unneeded play by play data.  We will only need EPA, date, team data from the play by play data.
@@ -31,7 +31,7 @@ Types of data wrangling performed, such as data cleaning, joining, filtering, an
      
   
 
-The schemata used in the final production database, whether relational or non-relational. <br>
+**The schemata used in the final production database, whether relational or non-relational.** <br>
  + Creating table schemata
  + Create DB
  + Postgresql data upload
