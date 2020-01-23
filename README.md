@@ -10,7 +10,7 @@ Once datasets are identified, perform ETL on the data, and document the followin
 
 
 Datasets used and their sources.<br>
-  + Github datasets of regular season NFL game results
+  + Github datasets of regular season NFL game results and play by play data
   + Two different years (2018 and 2019)  
   + https://github.com/ryurko/nflscrapR-data/tree/master/games_data/regular_season
   + https://github.com/ryurko/nflscrapR-data/tree/master/play_by_play_data/regular_season
@@ -19,11 +19,17 @@ Datasets used and their sources.<br>
 
 Types of data wrangling performed, such as data cleaning, joining, filtering, and aggregating.<br>
   + Appending years 2018 and 2019
-  + Filtering non KC games out
-  + Cleaning irrelevant / repetitive columns (Game type - all reg season).
+  + Filtering non KC games out from dataset
+  + Cleaning irrelevant / repetitive columns (Game type - all reg season) and unneeded play by play data.  We will only need EPA, date, team data from the play by play data.
   + Using Python and Pandas to create dataframes with necessary data columns from a CSV source.
+     + Create dataframe from all data
+     + Create new dataframe with Game_ID, Possession Team, Game Date, EP, and EPA
+     + Find only KC Games
+     + Sum EPA totals by game
+     + Export new CSV data
+     + Import new CSV (KCEPA)
+     
   
-
 
 The schemata used in the final production database, whether relational or non-relational. <br>
  + Creating table schemata
