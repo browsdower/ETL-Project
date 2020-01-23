@@ -12,4 +12,4 @@ where home_team = 'KC'
 	or away_team = 'KC'
 
 
-+ This query will join our game results data to play data, and return results showing KC, their opponents, the game ID, game week, game score for each team, as well as the sum EPA value for that game
++ This query will join our game results data to play data, and return results showing KC, their opponents, the game ID, game week, game score for each team, as well as the sum EPA value for the Kansas City offense
