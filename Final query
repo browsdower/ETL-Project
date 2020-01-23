@@ -1,3 +1,33 @@
+Setup Database tables
+
+Table: public.football2019
+-- DROP TABLE public.football2019;
+CREATE TABLE public.football2019
+(
+    type character varying(3) COLLATE pg_catalog."default",
+    game_id integer,
+    home_team character varying(5) COLLATE pg_catalog."default",
+    away_team character varying(5) COLLATE pg_catalog."default",
+    week integer,
+    season integer,
+    state_of_game character varying(4) COLLATE pg_catalog."default",
+    game_url character varying(100) COLLATE pg_catalog."default",
+    home_score integer,
+    away_score integer
+)
+TABLESPACE pg_default;
+ALTER TABLE public.football2019
+    OWNER to postgres;
+
+
+Final Table
+CREATE TABLE mahomes (
+  game_id VARCHAR(30) NOT NULL,
+  epa DECIMAL(8, 6)
+);
+
+
+Validation Query
 select
 	ma.game_id,
 	home_team,
