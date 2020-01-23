@@ -18,16 +18,17 @@ Once datasets are identified, perform ETL on the data, and document the followin
 
 
 **Types of data wrangling performed, such as data cleaning, joining, filtering, and aggregating.**<br>
-  + Appending years 2018 and 2019 in Postgre.
+  + Create Postgre database and set up tables.
+  + Appending years 2018 and 2019.
   + Filtering non KC games out from dataset
-  + Cleaning irrelevant / repetitive columns (Game type - all reg season) and unneeded play by play data.  We will only need EPA, date, team data from the play by play data.
+  + Cleaning irrelevant / repetitive columns (Game type - all reg season) and unneeded play by play data.  Will only need EPA, date, team data from the play by play data.
   + Using Python and Pandas to create dataframes with necessary data columns from a CSV source.
      + Create dataframe from all data
      + Create new dataframe with Game_ID, Possession Team, Game Date, EP, and EPA
      + Find only KC Games
      + Sum EPA totals by game
      + Export new CSV data
-     + Import new CSV (KCEPA)
+     + Import new CSV (KCEPA) into Postgre
      
   
 
