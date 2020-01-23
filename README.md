@@ -10,10 +10,10 @@ Once datasets are identified, perform ETL on the data, and document the followin
 
 
 Datasets used and their sources.<br>
-  
   + Github datasets of regular season NFL game results
   + Two different years (2018 and 2019)  
   + https://github.com/ryurko/nflscrapR-data/tree/master/games_data/regular_season
+  + https://github.com/ryurko/nflscrapR-data/tree/master/play_by_play_data/regular_season
   
 
 
@@ -21,6 +21,7 @@ Types of data wrangling performed, such as data cleaning, joining, filtering, an
   + Appending years 2018 and 2019
   + Filtering non KC games out
   + Cleaning irrelevant / repetitive columns (Game type - all reg season).
+  + Using Python and Pandas to create dataframes with necessary data columns from a CSV source.
   
 
 
